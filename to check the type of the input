@@ -70,3 +70,29 @@ int main()
  	
  	return 0;
  }
+ 
+ 
+ // ******** Java Code *******
+ // but not applicable for all cases
+ 
+import java.io.*;
+import java.util.*;
+public class HelloWorld{
+     public static void main(String []args){
+     
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        //s=s+sc.nextLine();
+        //System.out.print(s);
+        
+        if(s.matches("[-0-9]+"))
+            System.out.println("number");
+        else if(s.matches("[0.0-9.9]+"))
+            System.out.println("float");
+        else if(s.matches("[a-zA-Z]+"))
+            System.out.println("String");
+        else 
+            System.out.println("something else");
+            
+     }
+}
