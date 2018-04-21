@@ -1,0 +1,26 @@
+//this will add new node to the exiting node. if it is null then add to stating else at the end
+
+struct Node
+{
+     int data;
+     struct Node *next;
+}
+  
+Node* Insert(Node *head,int data)
+{
+    Node *pt;
+        pt->data=data;
+        pt->next=NULL;
+    if(head == NULL){
+        head=pt
+    }
+    else{
+        Node *tmp;
+        tmp= head;
+        while(tmp->next!=NULL){
+            tmp=tmp->next;
+        }
+        tmp->next = pt;
+    }
+    return head;
+}
