@@ -1,5 +1,6 @@
-# excepting size of an array
-n, m = input().strip().split(' ')
+# excepting size of an array               5 6                            result will be= n=5 m=6
+a=raw_input().split()
+n, m = int(a[0]),int(a[1])
 
 # to read mulitiples string like           Raj Shiv Mahesh Kundan         result will be=  ['Raj','Shiv','Mahesh','Kundan']
 nd = raw_input().split()
