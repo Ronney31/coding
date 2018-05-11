@@ -1,0 +1,7 @@
+# to read mulitiples string like           Raj Shiv Mahesh Kundan         result will be=  ['Raj','Shiv','Mahesh','Kundan']
+
+nd = raw_input().split()
+
+# to read multiples integer like          10 11 55 22 15 1 47 88          result will be=  ['10','11','55','22','15','1','47','88']
+
+a = map(int, raw_input().rstrip().split())
