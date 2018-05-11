@@ -10,3 +10,14 @@ a = map(int, raw_input().rstrip().split())
 
 # to print at the end of the result       1* 2* 3*         # it will also add new line
  print (i,end="*")
+
+#way of creating and initializing the list with values
+                                             
+                                             
+a=[[0] * i for i in range(5)]                                             [[], [0], [0, 0], [0, 0, 0], [0, 0, 0, 0]]
+a=[[i for i in range(3)] for j in range(4)]                               [[0, 1, 2], [0, 1, 2], [0, 1, 2], [0, 1, 2]]
+a=[[0]*3]*4                                                               [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
+***********************************
+a=[[]]*5                           [[], [], [], [], []]
+a[0].append(5)                     [[5], [5], [5], [5], [5]]
+a[0].append(8)                     [[5, 8], [5, 8], [5, 8], [5, 8], [5, 8]]
