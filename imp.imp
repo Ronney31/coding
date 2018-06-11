@@ -13,7 +13,10 @@ a = map(int, raw_input().rstrip().split())
 
 #way of creating and initializing the list with values
                                              
-                                             
+    
+#best way to initialize 2D array is below
+b=[[] for x in range(len(a)) ]
+
 a=[[0] * i for i in range(5)]                                             [[], [0], [0, 0], [0, 0, 0], [0, 0, 0, 0]]
 a=[[i for i in range(3)] for j in range(4)]                               [[0, 1, 2], [0, 1, 2], [0, 1, 2], [0, 1, 2]]
 a=[[0]*3]*4                                                               [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
