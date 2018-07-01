@@ -38,7 +38,8 @@ void fun(int a){
 }
 int main()
 {
-	int a=4;
+	int a;
+	cin>>a;
 	fun(a);
 	
 	return 0;
