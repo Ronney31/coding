@@ -1,4 +1,5 @@
 #printing LessThan sign
+'''
 0000X
 000X0
 00X00
@@ -8,6 +9,7 @@ X0000
 00X00
 000X0
 0000X
+'''
 print "#"*15
 p=4
 l=-4
