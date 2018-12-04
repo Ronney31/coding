@@ -8,6 +8,13 @@ nd = raw_input().split()
 # to read multiples integer like          10 11 55 22 15 1 47 88          result will be=  ['10','11','55','22','15','1','47','88']
 a = map(int, raw_input().rstrip().split())
 
+
+import sys
+n=input()
+for i in range(int(n)):
+    a,b = map(int,sys.stdin.readline().split())
+    
+
 # to print at the end of the result       1* 2* 3*         # it will also add new line
  print (i,end="*")
 
